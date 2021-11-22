@@ -24,5 +24,10 @@ Pending :-
 		2. email body containg that days total entry 
 		3. log maintaining
  
-		
+Issues:-      	
+		used mongodb to create database .. so without node.js driver was unable to connect 
+
+
+Bugs:-
+		data validation was missing	
 	
