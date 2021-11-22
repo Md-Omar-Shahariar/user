@@ -1,0 +1,22 @@
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 100vh;background-color: black;
+    color: white;
+    
+}
+.form-d{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 90, 78);
+    padding: 50px;
+    border-radius: 10px;
+    
+    
+}
+.form-d a{
+    margin: 20px;
+}

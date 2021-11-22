@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add-User</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="form">
+        <div class="log-head">
+          <h2>User Info</h2>
+        </div>
+        <form class="form-d" name="search" action="C:\Users\DELL\OneDrive\Desktop\Afridi\Bank_App\test.py" method="get">
+        <div>
+            <label for="dob">Account Type : </label>
+            <select class="custom-select" id="inputGroupSelect01">
+              <option selected>Choose...</option>
+              <option value="Savings">Savings</option>
+              <option value="Current">Current</option>
+              <option value="Fixed">Fixed</option>
+            </select>
+          </div>
+          <div>
+            <label for="dob">NID No : </label>
+            <input  type="text" id="dob" placeholder="NID Number" pattern="[\d]{10}" title="Please Enter 10 digit number" name="nid"/>
+          </div>
+          <div>
+            <label for="html">Name : </label>
+            <input type="text" id="html" placeholder="Enter Name" />
+          </div>
+          <div>
+            <label for="age">Age : </label>
+            <input type="number" id="age" placeholder="Enter Age" />
+          </div>
+          <div>
+            <label for="dob">Date of Birth : </label>
+            <input type="date" id="dob" placeholder="Date of Birth" />
+          </div>
+          <div>
+            <label for="dob">Address : </label>
+            <input type="text" id="dob" placeholder="Address" />
+          </div>
+          <div>
+            <label for="dob">Contact no : </label>
+            <input type="text" id="dob" placeholder="Contact No" pattern="[\d]{10}" title="Please Enter 10 digit number" />
+          </div>
+          <div>
+            <label for="dob">Gender : </label>
+            <select class="custom-select" id="inputGroupSelect01">
+              <option selected>Choose...</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Third Gender</option>
+            </select>
+          </div>
+          <div>
+            <label for="hobby">Hobby : </label>
+            <input type="text" id="dob" placeholder="Hobby" />
+          </div>
+          <button class="btn btn-primary btn-lg" type="Submit" value="Submit">Submit</button>
+        </form>
+      </div>
+
+      <div class="log-form"></div>
+    </div>
+  </body>
+</html>

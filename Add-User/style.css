@@ -1,0 +1,53 @@
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 100vh;background-color: black;
+    color: white;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgb(32, 78, 163);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.log-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.form-d div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+    
+}
+form button{
+    display: block;
+    float: right;
+    
+}
+::placeholder{
+    text-align: center;
+}
+.form-d div label{
+    margin-right: 20px;
+}
+.form-d div input{
+    border-radius: 5px;
+    width: 50%;
+
+}
+.form-d div select{
+    border-radius: 5px;
+    width: 50%;
+
+}
